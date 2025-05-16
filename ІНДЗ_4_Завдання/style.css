@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto Slab';
+background: linear-gradient(45deg, rgb(243, 0, 43) 21%, rgb(185, 0, 241) 51%, rgb(0, 62, 255));
+}
+
+
+
+.main__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  color: white;
+}
+.main__content h1 {
+  font-size: 42px;
+  margin-bottom: 15px;
+}
+.user__info{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(102, 102, 102, 0.8);
+    padding: 25px;
+    border-radius: 20px ;
+}
+.user__info p {
+    text-align: start;
+}
+
+.user__info input{
+    padding: 10px;
+    border-radius: 5px;
+    border: 3px solid #4c4a4a;
+    width: 200px;
+    font-size: 16px;
+    background: white;
+    color:rgb(67, 65, 65);
+}
+
+.button__upload{
+    background: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 5px;
+    color: rgb(96, 95, 95);
+    transition: all 0.1s ease-in;
+}
+.button__upload:hover{
+    background: rgb(67, 65, 65);
+    color: rgb(255, 255, 255);
+}
+
